@@ -1,0 +1,8 @@
+{
+  "title": "Welcome to my website!",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
+}
