@@ -53,8 +53,11 @@ export default function LogoDesign() {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 🎯 {t('creative.categories.logoDesign.title')}
               </h1>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-600 mb-2">
                 {t('creative.categories.logoDesign.description')}
+              </p>
+              <p className="text-sm text-gray-500">
+                © 2025 Ruiyang Wang. All designs are original. All rights reserved.
               </p>
             </div>
 

@@ -97,8 +97,11 @@ export default function Characters() {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 {t('creative.charactersSection.title')}
               </h1>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-600 mb-2">
                 {t('creative.charactersSection.subtitle')}
+              </p>
+              <p className="text-sm text-gray-500">
+                © 2025 Ruiyang Wang. All characters and artwork are original creations. All rights reserved.
               </p>
             </div>
 

@@ -53,8 +53,11 @@ export default function DigitalArt() {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 🎨 {t('creative.categories.digitalArt.title')}
               </h1>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-gray-600 mb-2">
                 {t('creative.categories.digitalArt.description')}
+              </p>
+              <p className="text-sm text-gray-500">
+                © 2025 Ruiyang Wang. All artwork is original. All rights reserved.
               </p>
             </div>
 
