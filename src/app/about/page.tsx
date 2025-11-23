@@ -2,6 +2,7 @@
 
 import Navbar from '@/components/navbar';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 
 export default function About() {
   const { t } = useTranslation();
