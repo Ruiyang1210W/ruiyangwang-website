@@ -92,8 +92,10 @@ export default function Creative() {
           {/* Character Section */}
           <div className="mt-20">
             <div className="text-center mb-12">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {t('creative.charactersSection.title')}
+              <h3 className="text-3xl md:text-4xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+                  {t('creative.charactersSection.title')}
+                </span>
               </h3>
               <p className="text-lg text-gray-600">
                 {t('creative.charactersSection.subtitle')}

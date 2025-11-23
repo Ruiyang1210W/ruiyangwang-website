@@ -21,8 +21,11 @@ export default function About() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 {t('about.backgroundText1')}
               </p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 {t('about.backgroundText2')}
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                {t('about.backgroundText3')}
               </p>
             </div>
 
