@@ -34,20 +34,27 @@ export default function Technical() {
     {
       titleKey: 'technical.projects.project3.title',
       descKey: 'technical.projects.project3.desc',
+      tags: ['Python', 'LoRA', 'FastAPI', 'Model Training'],
+      link: 'https://github.com/Ruiyang1210W/genz-slang-explainer',
+      color: 'text-teal-600'
+    },
+    {
+      titleKey: 'technical.projects.project4.title',
+      descKey: 'technical.projects.project4.desc',
       tags: ['Java', 'OOP', 'Game Dev', '2D Graphics'],
       link: 'https://github.com/Ruiyang1210W/Jump-and-Run',
       color: 'text-orange-500'
     },
     {
-      titleKey: 'technical.projects.project4.title',
-      descKey: 'technical.projects.project4.desc',
+      titleKey: 'technical.projects.project5.title',
+      descKey: 'technical.projects.project5.desc',
       tags: ['Next.js', 'React', 'Full-Stack', 'TypeScript'],
       link: 'https://artistic-alley-guywhocodes-projects.vercel.app/',
       color: 'text-red-600'
     },
     {
-      titleKey: 'technical.projects.project5.title',
-      descKey: 'technical.projects.project5.desc',
+      titleKey: 'technical.projects.project6.title',
+      descKey: 'technical.projects.project6.desc',
       tags: ['Unity', 'C#', '3D Game', 'Game Dev'],
       link: 'https://lfer58.itch.io/neon-navigator',
       color: 'text-purple-600'
