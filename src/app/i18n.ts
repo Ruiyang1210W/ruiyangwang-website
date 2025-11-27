@@ -147,7 +147,7 @@ const resources = {
         achievementsTitle: "Achievements:",
         achievements: "President's List: 2023-2024, 2024-2025",
         mitName: "Massachusetts Institute of Technology (MIT)",
-        mitProgram: "Data Science & Machine Learning Program (Remote) • Completed Mar 2025",
+        mitProgram: "Data Science & Machine Learning Program (Remote) • Completed Feb 2025",
         viewCertificate: "View Certificate",
         interestsTitle: "Interests & Hobbies",
         backToHome: "Back to Home"
@@ -304,7 +304,7 @@ const resources = {
         achievementsTitle: "成就：",
         achievements: "校长荣誉榜：2023-2024, 2024-2025",
         mitName: "麻省理工学院 (MIT)",
-        mitProgram: "数据科学与机器学习项目（远程）• 完成于 2025年3月",
+        mitProgram: "数据科学与机器学习项目（远程）• 完成于 2025年2月",
         viewCertificate: "查看证书",
         interestsTitle: "兴趣爱好",
         backToHome: "返回首页"
