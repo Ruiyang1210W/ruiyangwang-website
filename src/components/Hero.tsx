@@ -12,17 +12,37 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Video Background */}
+      {/* Video Background - Desktop only */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        poster="/background/desktop-backup-BG.jpg"
+        className="absolute inset-0 w-full h-full object-cover hidden md:block"
       >
         <source src="/background/XiyaYuriyBg.mp4" type="video/mp4" />
         <source src="/background/XiyaYuriyBg.webm" type="video/webm" />
       </video>
+
+      {/* Mobile Backgrounds - Static backup + GIF overlay */}
+      {/* Backup static image - shows while GIF loads or if GIF fails */}
+      <div
+        className="absolute inset-0 w-full h-full bg-cover md:hidden"
+        style={{
+          backgroundImage: "url('/background/mobile-backup-BG.jpg')",
+          backgroundPosition: 'center'
+        }}
+      ></div>
+
+      {/* GIF Background - Mobile only - loads on top of backup */}
+      <div
+        className="absolute inset-0 w-full h-full bg-cover md:hidden"
+        style={{
+          backgroundImage: "url('/background/mobileBG.GIF')",
+          backgroundPosition: '17% center'
+        }}
+      ></div>
 
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/50"></div>
