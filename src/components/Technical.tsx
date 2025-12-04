@@ -49,7 +49,7 @@ export default function Technical() {
       titleKey: 'technical.projects.project5.title',
       descKey: 'technical.projects.project5.desc',
       tags: ['Next.js', 'React', 'Full-Stack', 'TypeScript'],
-      link: 'https://artistic-alley-guywhocodes-projects.vercel.app/',
+      link: 'https://github.com/GuyWhoCode/Artistic-Alley',
       color: 'text-red-600'
     },
     {
