@@ -49,14 +49,22 @@ const resources = {
             desc: "A fine-tuned large language model that decodes Gen Z internet slang with clear definitions and contextual examples. Built with LoRA fine-tuning for efficient model training and deployed via FastAPI for real-time slang translation."
           },
           project4: {
+            title: "QR Code Event Management System",
+            desc: "Event management web application with automated QR code generation for attendee registration. Streamlined check-in workflows and real-time data tracking for events with hundreds of participants, built with Flask and deployed on Render."
+          },
+          project5: {
+            title: "Intelligent Writing Assistant",
+            desc: "A writing tool that integrates the OpenAI API, focusing on areas like job cover letters, statements of purpose, and essays. Features three specialized modes—Professional, Academic, and Creative—to tailor content to different writing needs."
+          },
+          project6: {
             title: "Moby Jump and Run",
             desc: "A charming 2D pixel-art platformer featuring Moby the bird's journey home across 3 challenging levels. Designed using Java with object-oriented architecture, including custom collision detection, level progression, and character animation systems."
           },
-          project5: {
+          project7: {
             title: "Artistic Alley – Commission Marketplace",
             desc: "A full-stack commission marketplace connecting artists with clients. Features streamlined request workflows, real-time order tracking, and integrated payment processing. Built with Next.js and React, reducing artist-client coordination time by automating commission management."
           },
-          project6: {
+          project8: {
             title: "Neon Navigator",
             desc: "A 3D linear action game where players control a character navigating through obstacle-filled levels. Features dynamic level progression, physics-based challenges, and immersive neon-themed environments. Built with Unity and C#."
           }
@@ -206,14 +214,22 @@ const resources = {
             desc: "一个经过微调的大型语言模型，通过清晰的定义和情境示例解码Gen Z网络俚语。使用LoRA微调技术实现高效的模型训练，并通过FastAPI部署以实现实时俚语翻译。"
           },
           project4: {
+            title: "二维码活动管理系统",
+            desc: "具有自动化二维码生成功能的活动管理网络应用程序，用于参会者注册。为数百名参与者的活动提供简化的签到工作流程和实时数据跟踪，使用Flask构建并部署在Render上。"
+          },
+          project5: {
+            title: "智能写作助手",
+            desc: "集成OpenAI API的写作工具，专注于求职信、目的陈述和论文等领域。具有三种专业模式——专业、学术和创意——以满足不同的写作需求。"
+          },
+          project6: {
             title: "Moby跳跃冒险",
             desc: "一款迷人的2D像素艺术平台游戏，讲述小鸟Moby穿越3个挑战关卡回家的旅程。使用Java和面向对象架构设计，包含自定义碰撞检测、关卡进度和角色动画系统。"
           },
-          project5: {
+          project7: {
             title: "Artistic Alley – 艺术委托市场",
             desc: "一个连接艺术家与客户的全栈委托市场平台。具有简化的请求工作流程、实时订单跟踪和集成支付处理功能。使用Next.js和React构建，通过自动化委托管理减少艺术家与客户的协调时间。"
           },
-          project6: {
+          project8: {
             title: "霓虹领航员",
             desc: "一款3D线性动作游戏，玩家控制角色穿越充满障碍的关卡。具有动态关卡进度、基于物理的挑战和沉浸式霓虹主题环境。使用Unity和C#构建。"
           }
