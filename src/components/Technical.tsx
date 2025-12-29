@@ -53,38 +53,46 @@ export default function Technical() {
     {
       titleKey: 'technical.projects.project4.title',
       descKey: 'technical.projects.project4.desc',
+      tags: ['Django', 'Google Gemini AI', 'NASA FIRMS API', 'Leaflet.js'],
+      link: 'https://github.com/adayang0046/Spring-2025-BroncoHacks_-LoopBreaker',
+      color: 'text-red-600',
+      image: '/projectPictures/williamswildfirechatbot.png'
+    },
+    {
+      titleKey: 'technical.projects.project5.title',
+      descKey: 'technical.projects.project5.desc',
       tags: ['Flask', 'Python', 'Web Development', 'QR Code'],
       link: 'https://qr-code-generator-cssa.onrender.com/',
       color: 'text-yellow-600',
       image: '/projectPictures/QRCodeEventManagementSystem.png'
     },
     {
-      titleKey: 'technical.projects.project5.title',
-      descKey: 'technical.projects.project5.desc',
+      titleKey: 'technical.projects.project6.title',
+      descKey: 'technical.projects.project6.desc',
       tags: ['Java', 'OpenAI API', 'JUnit', 'Swing'],
       link: 'https://github.com/Ruiyang1210W/Intelligent-Writing-Assistant',
       color: 'text-indigo-600',
       image: '/projectPictures/IntelligentWritingAssistant.png'
     },
     {
-      titleKey: 'technical.projects.project6.title',
-      descKey: 'technical.projects.project6.desc',
+      titleKey: 'technical.projects.project7.title',
+      descKey: 'technical.projects.project7.desc',
       tags: ['Java', 'OOP', 'Game Dev', '2D Graphics'],
       link: 'https://github.com/Ruiyang1210W/Jump-and-Run',
       color: 'text-orange-500',
       image: '/projectPictures/MobyJumpAndRun.png'
     },
     {
-      titleKey: 'technical.projects.project7.title',
-      descKey: 'technical.projects.project7.desc',
+      titleKey: 'technical.projects.project8.title',
+      descKey: 'technical.projects.project8.desc',
       tags: ['Next.js', 'React', 'Full-Stack', 'TypeScript'],
       link: 'https://github.com/GuyWhoCode/Artistic-Alley',
       color: 'text-red-600',
       image: '/projectPictures/ArtisticAlleyCommissionMarketplace.png'
     },
     {
-      titleKey: 'technical.projects.project8.title',
-      descKey: 'technical.projects.project8.desc',
+      titleKey: 'technical.projects.project9.title',
+      descKey: 'technical.projects.project9.desc',
       tags: ['Unity', 'C#', '3D Game', 'Game Dev'],
       link: 'https://lfer58.itch.io/neon-navigator',
       color: 'text-purple-600',
