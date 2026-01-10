@@ -62,7 +62,7 @@ export default function Technical() {
       titleKey: 'technical.projects.project5.title',
       descKey: 'technical.projects.project5.desc',
       tags: ['Flask', 'Python', 'Web Development', 'QR Code'],
-      link: 'https://qr-code-generator-cssa.onrender.com/',
+      link: 'https://github.com/Ruiyang1210W/Simple-QR-code-generator',
       color: 'text-yellow-600',
       image: '/projectPictures/QRCodeEventManagementSystem.png'
     },
