@@ -53,7 +53,7 @@ export default function Technical() {
     {
       titleKey: 'technical.projects.project4.title',
       descKey: 'technical.projects.project4.desc',
-      tags: ['Django', 'Google Gemini AI', 'NASA FIRMS API', 'Leaflet.js'],
+      tags: ['Django', 'AI Agent', 'NASA FIRMS API', 'SQL'],
       link: 'https://github.com/adayang0046/Spring-2025-BroncoHacks_-LoopBreaker',
       color: 'text-red-600',
       image: '/projectPictures/williamswildfirechatbot.png'
