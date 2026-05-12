@@ -36,6 +36,10 @@ const resources = {
           web: "Web Development"
         },
         projects: {
+          project0: {
+            title: "PoseHelper - ML-powered Tool for Artists",
+            desc: "PoseHelper is an ML-powered pose reference tool built for artists. Upload any single-person photo and instantly receive a clean skeleton mannequin you can draw from directly — no more searching through cluttered photo references. The pipeline uses MoveNet Thunder for real-time keypoint detection, a trained sklearn MLP classifier to identify pose categories, and OpenCV for clean mannequin rendering. Deployed via FastAPI with an interactive frontend."
+          },
           project1: {
             title: "Anomaly Detection for Cybersecurity",
             desc: "A modular deep-learning pipeline for network anomaly detection (CIC-IDS2017, PyTorch). Parallelized forward-pass inference with MPI across 32 processes on a CPU cluster, achieving ~217× speedup vs. single-process baseline."
@@ -205,6 +209,10 @@ const resources = {
           web: "Web开发"
         },
         projects: {
+          project0: {
+            title: "PoseHelper - 面向画师的 ML 姿态工具",
+            desc: "PoseHelper 是一款专为画师设计的 ML 人体姿态参考工具。上传任意单人照片，即可获得简洁的骨架人偶图，直接用于绘画参考——告别在 Pinterest 和谷歌搜索杂乱照片的烦恼。系统使用 MoveNet Thunder 进行实时关键点检测，训练好的 sklearn MLP 分类器识别姿态类别，并通过 OpenCV 渲染简洁人偶图。基于 FastAPI 部署，配有交互式前端界面。"
+          },
           project1: {
             title: "网络安全异常检测",
             desc: "用于网络异常检测的模块化深度学习管道（CIC-IDS2017，PyTorch）。使用MPI在CPU集群上跨32个进程并行化前向推理，相比单进程基线实现约217倍加速。"

@@ -12,6 +12,7 @@ export default function DigitalArt() {
   const artworks = [
     { id: 8, title: 'Xiya Cyberpunk Concept', description: 'Xiya character in cyberpunk world', image: '/digital/Xiya cyberpunk concept.JPG' },
     { id: 12, title: 'Yuriy Cyberpunk Concept', description: 'Yuriy character in cyberpunk world', image: '/digital/Yuriy cyberpunk concept.jpg' },
+    { id: 13, title: "Yuriy & Xiya's New Year", description: "Yuriy & Xiya gazing over Night City's glittering nightscape on New Year's Eve", image: '/digital/bday2025.jpg' },
     { id: 2, title: 'Dragon Boat Festival', description: 'Dragon Boat Festival themed illustration', image: '/digital/Dragon Boat Festival.jpg' },
     { id: 4, title: 'Snake Year Cyberpunk', description: 'Year of the Snake in Night City, Cyberpunk', image: '/digital/Snake year cyberpunk.JPG' },
     { id: 10, title: 'Xiya & Yuriy Dragon Year', description: 'Xiya, Yuriy and LOOP in Year of the Dragon', image: '/digital/Xiya Yuriy dragon year.JPG' },
@@ -19,18 +20,10 @@ export default function DigitalArt() {
     { id: 5, title: 'The Band AU Concept', description: 'Band AU character concept', image: '/digital/The band AU concept.JPG' },
     { id: 6, title: 'Vacation 1', description: 'Vacation themed artwork part 1', image: '/digital/vacation1.JPG' },
     { id: 7, title: 'Vacation 2', description: 'Vacation themed artwork part 2', image: '/digital/vacation2.JPG' },
+    { id: 14, title: 'Orange & 66', description: 'Rogue Hunters vocalist Orange with cat 66 — inspired by a real rescued cat', image: '/digital/Orange.jpg' },
     { id: 11, title: "Yuriy and Xiya's Date", description: 'Character date scene', image: "/digital/Yuriy and Xiya's date.JPG" },
     { id: 1, title: 'Chiikava Version', description: 'Character artwork in cute animal style', image: '/digital/Chiikava version.JPG' },
     { id: 3, title: 'Early Concept', description: 'Early character concept design', image: '/digital/early concept.JPG' },
-  ];
-
-  const gradients = [
-    'from-purple-400 to-pink-600',
-    'from-blue-400 to-cyan-600',
-    'from-green-400 to-teal-600',
-    'from-orange-400 to-red-600',
-    'from-pink-400 to-purple-600',
-    'from-indigo-400 to-blue-600',
   ];
 
   return (

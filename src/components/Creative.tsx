@@ -14,7 +14,7 @@ export default function Creative() {
       link: '/creative/digital-art',
       icon: '🎨',
       gradient: 'from-purple-400 to-pink-600',
-      coverImage: '/digital/Snake year cyberpunk.JPG'
+      coverImage: '/digital/bday2025.jpg'
     },
     {
       key: 'traditionalArt',

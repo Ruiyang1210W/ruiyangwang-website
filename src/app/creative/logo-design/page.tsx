@@ -13,6 +13,7 @@ export default function LogoDesign() {
     { id: 12, title: 'Xiya the Bassist Logo', description: 'Logo design for Xiya the bassist', image: '/logoDesigns/Xiya the bassist logo.PNG' },
     { id: 11, title: 'Necklace Pick Design', description: 'Custom necklace pick design', image: '/logoDesigns/necklace pick design.png' },
     { id: 6, title: 'Guitar Pick Designs', description: 'Custom guitar pick designs', image: '/logoDesigns/guitar pick designs.png' },
+    { id: 13, title: 'Chrome Extension: UpTime! Banner', description: "UpTime! mascot Mint the otter having a daydream when sitting on the toilet for too long", image: '/logoDesigns/UpTime Banner.jpg' },
     { id: 1, title: 'CSSA Bronco Bai Lu', description: 'CSSA mascot character design and art', image: '/logoDesigns/CSSA bronco Bai Lu.JPG' },
     { id: 2, title: 'CSSA Bronco Qiu Fen', description: 'CSSA mascot character design and art', image: '/logoDesigns/CSSA bronco Qiu Fen.JPG' },
     { id: 3, title: 'CSSA IG Icon with Mascot', description: 'CSSA Social media icon design', image: '/logoDesigns/cssa ig icon with mascot.jpg' },
@@ -22,15 +23,6 @@ export default function LogoDesign() {
     { id: 8, title: 'LoopBreakers Logo', description: 'Logo design for LoopBreakers', image: '/logoDesigns/Logo for LoopBreakers.JPG' },
     { id: 10, title: 'My Mascot Moby', description: 'Personal mascot character Moby', image: '/logoDesigns/my mascot Moby.JPG' },
     { id: 5, title: 'Williams Wildfire Chatbot Logo', description: 'Funny logo for wildfire alert chatbot', image: '/logoDesigns/Funny logo for Williams wild fire chatbot.PNG' },
-  ];
-
-  const gradients = [
-    'from-orange-400 to-red-600',
-    'from-red-400 to-pink-600',
-    'from-yellow-400 to-orange-600',
-    'from-pink-400 to-red-600',
-    'from-orange-400 to-yellow-600',
-    'from-red-400 to-orange-600',
   ];
 
   return (

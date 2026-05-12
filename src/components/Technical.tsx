@@ -27,6 +27,14 @@ export default function Technical() {
 
   const projects = [
     {
+      titleKey: 'technical.projects.project0.title',
+      descKey: 'technical.projects.project0.desc',
+      tags: ['Python', 'Machine Learning', 'MoveNet', 'FastAPI', 'OpenCV', 'scikit-learn', 'TensorFlow'],
+      link: 'https://github.com/Ruiyang1210W/PoseHelper',
+      color: 'text-purple-600',
+      image: '/projectPictures/PoseHelper.png'
+    },
+    {
       titleKey: 'technical.projects.project1.title',
       descKey: 'technical.projects.project1.desc',
       tags: ['Python', 'PyTorch', 'MPI', 'Deep Learning'],
