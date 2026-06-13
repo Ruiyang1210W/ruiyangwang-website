@@ -33,6 +33,14 @@ export default function About() {
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-6">{t('about.educationTitle')}</h2>
 
+              {/* UCLA Education */}
+              <div className="space-y-4 mb-8 pb-8 border-b border-gray-200">
+                <div>
+                  <h3 className="text-xl font-medium text-purple-600">{t('about.uclaName')}</h3>
+                  <p className="text-gray-600">{t('about.uclaDegree')}</p>
+                </div>
+              </div>
+
               {/* CPP Education */}
               <div className="space-y-6 mb-8 pb-8 border-b border-gray-200">
                 <div>
@@ -56,13 +64,33 @@ export default function About() {
               </div>
 
               {/* MIT Education */}
-              <div className="space-y-4">
+              <div className="space-y-4 mb-8 pb-8 border-b border-gray-200">
                 <div>
                   <h3 className="text-xl font-medium text-purple-600">{t('about.mitName')}</h3>
                   <p className="text-gray-600 mb-4">{t('about.mitProgram')}</p>
 
                   <a
                     href="/certificate.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all"
+                  >
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    {t('about.viewCertificate')}
+                  </a>
+                </div>
+              </div>
+
+              {/* NASA L'SPACE */}
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-xl font-medium text-purple-600">{t('about.nasaName')}</h3>
+                  <p className="text-gray-600 mb-4">{t('about.nasaProgram')}</p>
+
+                  <a
+                    href="/Certificate NPWEE.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all"
@@ -86,6 +114,7 @@ export default function About() {
                 <span className="px-4 py-2 bg-green-100 text-green-700 rounded-full">Machine Learning</span>
                 <span className="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full">Animals</span>
                 <span className="px-4 py-2 bg-orange-100 text-orange-700 rounded-full">Music</span>
+                <span className="px-4 py-2 bg-sky-100 text-sky-700 rounded-full">Deep Space</span>
               </div>
             </div>
 

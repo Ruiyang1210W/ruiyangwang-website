@@ -43,6 +43,14 @@ export default function Technical() {
       image: '/projectPictures/AnomalyDectionForCybersecurity.png'
     },
     {
+      titleKey: 'technical.projects.projectUptime.title',
+      descKey: 'technical.projects.projectUptime.desc',
+      tags: ['Chrome Extension', 'Manifest V3', 'JavaScript', 'AI-Powered', 'Full-Stack'],
+      link: 'https://github.com/OniKiely/Uptime-_BroncoHack2026Project',
+      color: 'text-emerald-500',
+      image: '/projectPictures/Uptime!.png'
+    },
+    {
       titleKey: 'technical.projects.project2.title',
       descKey: 'technical.projects.project2.desc',
       tags: ['Android', 'Kotlin', 'Mobile App', 'Firebase'],

@@ -11,6 +11,7 @@ export default function LogoDesign() {
 
   const artworks = [
     { id: 12, title: 'Xiya the Bassist Logo', description: 'Logo design for Xiya the bassist', image: '/logoDesigns/Xiya the bassist logo.PNG' },
+    { id: 14, title: 'Thank You – JPL', description: 'Thank you card design for Jet Propulsion Laboratory (JPL)', image: '/logoDesigns/Thank_you_JPL.png' },
     { id: 11, title: 'Necklace Pick Design', description: 'Custom necklace pick design', image: '/logoDesigns/necklace pick design.png' },
     { id: 6, title: 'Guitar Pick Designs', description: 'Custom guitar pick designs', image: '/logoDesigns/guitar pick designs.png' },
     { id: 13, title: 'Chrome Extension: UpTime! Banner', description: "UpTime! mascot Mint the otter having a daydream when sitting on the toilet for too long", image: '/logoDesigns/UpTime Banner.jpg' },

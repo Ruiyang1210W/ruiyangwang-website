@@ -12,6 +12,8 @@ export default function TraditionalArt() {
   const artworks = [
     { id: 4, title: 'Xiya Cyberpunk Postercard', description: 'Xiya character postercard design', image: '/traditional/Xiya Cyberpunk Postercard.png' },
     { id: 8, title: 'Yuriy Cyberpunk Postercard', description: 'Yuriy character postercard design', image: '/traditional/Yuriy Cyberpunk Postercard.png' },
+    { id: 10, title: 'Xiya & the Iron Dragon', description: 'Xiya with the iron dragon she created', image: '/traditional/Xiya and iron dragon.jpg' },
+    { id: 11, title: 'Yuriy & His Squad', description: 'Yuriy together with his squad', image: '/traditional/Yuriy and his squad.jpg' },
     { id: 7, title: 'Yuriy Comic Style', description: 'Yuriy character in comic style and he is fine', image: '/traditional/Yuriy comic style.png' },
     { id: 2, title: 'Manga Style OCs', description: 'Original characters in manga style', image: '/traditional/Manga style OCs.png' },
     { id: 3, title: 'Star Wars AU', description: 'Star Wars alternate universe concept', image: '/traditional/StarWars AU.png' },
@@ -19,15 +21,6 @@ export default function TraditionalArt() {
     { id: 9, title: 'Yuriy & Xiya in Garden', description: 'illustration with garden', image: '/traditional/Yuriy Xiya in garden.png' },
     { id: 1, title: 'Drew This When LA Blackout', description: 'Artwork created during LA blackout', image: '/traditional/Drew this when LA blackout.png' },
     { id: 6, title: 'Yuriy and Xiya Turn to Cats', description: 'Characters as cats', image: '/traditional/Yuriy and Xiya turn to cats.png' },
-  ];
-
-  const gradients = [
-    'from-blue-400 to-cyan-600',
-    'from-teal-400 to-green-600',
-    'from-cyan-400 to-blue-600',
-    'from-green-400 to-teal-600',
-    'from-sky-400 to-blue-600',
-    'from-emerald-400 to-teal-600',
   ];
 
   return (

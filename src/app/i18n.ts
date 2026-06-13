@@ -44,6 +44,10 @@ const resources = {
             title: "Anomaly Detection for Cybersecurity",
             desc: "A modular deep-learning pipeline for network anomaly detection (CIC-IDS2017, PyTorch). Parallelized forward-pass inference with MPI across 32 processes on a CPU cluster, achieving ~217× speedup vs. single-process baseline."
           },
+          projectUptime: {
+            title: "Uptime! – AI-Powered Chrome Extension",
+            desc: "Uptime! is an AI-powered Chrome extension that combats sedentary habits by tracking active browser time and delivering intelligent break reminders. Unlike typical alerts users dismiss, Uptime! rewards completed breaks with AI-generated surprises — rare animal facts, space trivia, and history oddities — making healthy habits genuinely engaging. Built with Manifest V3, the extension uses context-aware interruption logic to avoid disrupting meetings or deep focus sessions, and a streak system to drive long-term behavior change."
+          },
           project2: {
             title: "FutureScript - Time Capsule App",
             desc: "A time-capsule messaging Android app that encourages mindfulness and personal growth by allowing users to write and schedule letters to their future selves."
@@ -156,6 +160,8 @@ const resources = {
         backgroundText2: "With a strong foundation in computer science and a love for visual arts, I bridge the gap between technology and creativity. Whether I'm building web applications, AI tools or designing characters, I bring the same dedication and attention to detail.",
         backgroundText3: "I am deeply passionate about Artificial Intelligence and Machine Learning. My fascination with science fiction exploring AI and humanities not only fuels my learning motivation in these technical fields, but also inspires my creative work—driving me to imagine and design worlds where technology and humanity intersect.",
         educationTitle: "Education",
+        uclaName: "University of California, Los Angeles (UCLA)",
+        uclaDegree: "Master of Engineering, Artificial Intelligence • 2026 - 2027",
         universityName: "California State Polytechnic University, Pomona",
         degree: "Bachelor of Science in Computer Science • Minor: Data Science • 2022 - 2026",
         courseworkTitle: "Relevant Coursework:",
@@ -164,6 +170,8 @@ const resources = {
         achievements: "President's List: 2023-2024, 2024-2025",
         mitName: "Massachusetts Institute of Technology (MIT)",
         mitProgram: "Data Science & Machine Learning Program (Remote) • Completed Feb 2025",
+        nasaName: "NASA L'SPACE",
+        nasaProgram: "NASA Proposal Writing and Evaluation Experience Academy (NPWEE) • Completed April 2026",
         viewCertificate: "View Certificate",
         interestsTitle: "Interests & Hobbies",
         backToHome: "Back to Home"
@@ -216,6 +224,10 @@ const resources = {
           project1: {
             title: "网络安全异常检测",
             desc: "用于网络异常检测的模块化深度学习管道（CIC-IDS2017，PyTorch）。使用MPI在CPU集群上跨32个进程并行化前向推理，相比单进程基线实现约217倍加速。"
+          },
+          projectUptime: {
+            title: "Uptime! – AI 驱动的 Chrome 扩展",
+            desc: "Uptime! 是一款以人工智能驱动的 Chrome 扩展程序，通过追踪活跃浏览时间并发送智能休息提醒来对抗久坐习惯。不同于用户会直接忽略的普通弹窗提醒，Uptime! 在用户完成休息后给予 AI 生成的趣味奖励——包括罕见动物趣事、太空知识和历史奇闻——让养成健康习惯变得真正有趣。基于 Manifest V3 构建，扩展使用情境感知打断逻辑，避免在会议或深度专注时段打扰用户，并通过连续打卡系统推动长期行为改变。"
           },
           project2: {
             title: "FutureScript - 时光胶囊应用",
@@ -329,6 +341,8 @@ const resources = {
         backgroundText2: "凭借扎实的计算机科学基础和对视觉艺术的热爱，我在技术和创造力之间架起桥梁。无论是构建Web应用程序, AI工具还是设计角色，我都带来同样的奉献精神和对细节的关注。",
         backgroundText3: "我对人工智能和机器学习充满热情。我对探索人工智能与人文的科幻作品的迷恋，不仅激发了我在这些技术领域的学习动力，也启发了我的创作——驱使我去想象和设计技术与人性交汇的世界。",
         educationTitle: "教育背景",
+        uclaName: "加州大学洛杉矶分校 (UCLA)",
+        uclaDegree: "人工智能工程硕士 • 2026 - 2027",
         universityName: "加州州立理工大学，波莫纳分校",
         degree: "计算机科学理学学士 • 辅修：数据科学 • 2022 - 2026",
         courseworkTitle: "相关课程：",
@@ -337,6 +351,8 @@ const resources = {
         achievements: "校长荣誉榜：2023-2024, 2024-2025",
         mitName: "麻省理工学院 (MIT)",
         mitProgram: "数据科学与机器学习项目（远程）• 完成于 2025年2月",
+        nasaName: "NASA L'SPACE",
+        nasaProgram: "NASA 提案撰写与评估经验学院 (NPWEE) • 完成于 2026 年 4 月",
         viewCertificate: "查看证书",
         interestsTitle: "兴趣爱好",
         backToHome: "返回首页"
