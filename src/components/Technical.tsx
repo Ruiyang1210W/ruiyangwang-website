@@ -46,7 +46,7 @@ export default function Technical() {
       titleKey: 'technical.projects.projectUptime.title',
       descKey: 'technical.projects.projectUptime.desc',
       tags: ['Chrome Extension', 'Manifest V3', 'JavaScript', 'AI-Powered', 'Full-Stack'],
-      link: 'https://github.com/OniKiely/Uptime-_BroncoHack2026Project',
+      link: 'https://uptime-landing-page-tawny.vercel.app/',
       color: 'text-emerald-500',
       image: '/projectPictures/Uptime!.png'
     },
