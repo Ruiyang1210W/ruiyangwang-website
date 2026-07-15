@@ -1,17 +1,46 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function Technical() {
   const { t } = useTranslation();
   const [expandedProjects, setExpandedProjects] = useState<{ [key: number]: boolean }>({});
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
 
   const toggleExpand = (index: number) => {
     setExpandedProjects(prev => ({
       ...prev,
       [index]: !prev[index]
     }));
+  };
+
+  const updateScrollButtons = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 0);
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
+  };
+
+  useEffect(() => {
+    updateScrollButtons();
+    const el = scrollRef.current;
+    if (!el) return;
+    el.addEventListener('scroll', updateScrollButtons);
+    window.addEventListener('resize', updateScrollButtons);
+    return () => {
+      el.removeEventListener('scroll', updateScrollButtons);
+      window.removeEventListener('resize', updateScrollButtons);
+    };
+  }, []);
+
+  const scrollByAmount = (direction: 'left' | 'right') => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const amount = el.clientWidth * 0.8;
+    el.scrollBy({ left: direction === 'left' ? -amount : amount, behavior: 'smooth' });
   };
 
   const skills = [
@@ -159,8 +188,26 @@ export default function Technical() {
               <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent pointer-events-none z-10"></div>
               <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent pointer-events-none z-10"></div>
 
+              {/* Arrow buttons */}
+              <button
+                onClick={() => scrollByAmount('left')}
+                disabled={!canScrollLeft}
+                aria-label="Scroll projects left"
+                className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
+              >
+                ←
+              </button>
+              <button
+                onClick={() => scrollByAmount('right')}
+                disabled={!canScrollRight}
+                aria-label="Scroll projects right"
+                className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
+              >
+                →
+              </button>
+
               {/* Scrollable container */}
-              <div className="flex gap-8 overflow-x-auto pb-4 snap-x snap-mandatory custom-scrollbar">
+              <div ref={scrollRef} className="flex gap-8 overflow-x-auto pb-4 snap-x snap-mandatory custom-scrollbar">
                 {projects.map((project, index) => (
                   <div key={index} className="flex-shrink-0 w-80 bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all cursor-pointer snap-start">
                     {/* Project Thumbnail */}
