@@ -193,7 +193,7 @@ export default function Technical() {
                 onClick={() => scrollByAmount('left')}
                 disabled={!canScrollLeft}
                 aria-label="Scroll projects left"
-                className="absolute left-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
+                className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
               >
                 ←
               </button>
@@ -201,7 +201,7 @@ export default function Technical() {
                 onClick={() => scrollByAmount('right')}
                 disabled={!canScrollRight}
                 aria-label="Scroll projects right"
-                className="absolute right-2 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
+                className="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 shadow-md flex items-center justify-center text-white hover:shadow-lg hover:scale-105 transition-all disabled:opacity-0 disabled:pointer-events-none"
               >
                 →
               </button>
